@@ -1,0 +1,51 @@
+{
+  "name": "Earl Jasper V. Aquitania",
+  "role": "Backend Developer",
+  "location": "Claveria Cagayan, Philippines",
+  "imageUrl": "/profile.jpeg",
+  "imageAlt": "Portrait of Earl Jasper V. Aquitania",
+  "about": [
+    "I build clean and practical interfaces with strong attention to clarity, visual rhythm, and maintainable code.",
+    "My focus is creating digital products that are useful, readable, and polished across devices."
+  ],
+  "skills": [
+    "React",
+    "TypeScript",
+    "JavaScript",
+    "HTML and CSS",
+    "Godot Engine",
+    "PostgreSQL"
+  ],
+  "experience": [
+    {
+      "title": "Frontend Developer",
+      "organization": "Freelance",
+      "period": "2024 - Present",
+      "summary": "Build and maintain web interfaces, collaborate with clients, and deliver production-ready frontends."
+    }
+  ],
+  "education": [
+    {
+      "program": "Bachelor in Computer Science",
+      "institution": "Your University",
+      "period": "2020 - 2024"
+    }
+  ],
+  "contacts": [
+    {
+      "label": "Email",
+      "value": "you@example.com",
+      "url": "mailto:you@example.com"
+    },
+    {
+      "label": "GitHub",
+      "value": "github.com/your-name",
+      "url": "https://github.com/your-name"
+    },
+    {
+      "label": "LinkedIn",
+      "value": "linkedin.com/in/your-name",
+      "url": "https://linkedin.com/in/your-name"
+    }
+  ]
+}
