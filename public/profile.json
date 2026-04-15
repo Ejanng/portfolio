@@ -5,47 +5,59 @@
   "imageUrl": "/profile.jpeg",
   "imageAlt": "Portrait of Earl Jasper V. Aquitania",
   "about": [
-    "I build clean and practical interfaces with strong attention to clarity, visual rhythm, and maintainable code.",
-    "My focus is creating digital products that are useful, readable, and polished across devices."
+    "Aspiring software engineer seeking an internship or junior developer position where I can support real-world projects, write maintainable code, and continue growing in modern development technologies."
   ],
   "skills": [
+    "Python, C, C++, Java, JavaScript, TypeScript, PHP",
     "React",
-    "TypeScript",
-    "JavaScript",
-    "HTML and CSS",
-    "Godot Engine",
-    "PostgreSQL"
+    "Node.js, Express, Flask",
+    "Godot Engine, GDScript",
+    "MySQL, PostgreSQL"    
   ],
   "experience": [
     {
-      "title": "Frontend Developer",
-      "organization": "Freelance",
-      "period": "2024 - Present",
-      "summary": "Build and maintain web interfaces, collaborate with clients, and deliver production-ready frontends."
+      "title": "",
+      "organization": "",
+      "period": "",
+      "summary": ""
     }
   ],
   "education": [
     {
-      "program": "Bachelor in Computer Science",
-      "institution": "Your University",
-      "period": "2020 - 2024"
+      "program": "BS in Computer Science",
+      "institution": "Mariano Marcos State University",
+      "period": "AY: 2023 - Present",
+      "location": "City of Batac, Ilocos Norte, Philippines"
+    },
+    {
+      "program": "Senior High School",
+      "institution": "Academy of St. Joseph",
+      "period": "AY: 2021 - 2023",
+      "location": "Claveria Cagayan, Philippines"
+    },
+    {
+      "program": "Junior High School",
+      "institution": "Academy of St. Joseph",
+      "period": "AY: 2017 - 2021",
+      "location": "Claveria Cagayan, Philippines"
     }
+
   ],
   "contacts": [
     {
+      "label": "Phone",
+      "value": "+63 921 869 7014",
+      "url": "tel:+639218697014"
+    },
+    {
       "label": "Email",
-      "value": "you@example.com",
-      "url": "mailto:you@example.com"
+      "value": "earljasper21@gmail.com",
+      "url": "mailto:earljasper21@gmail.com"
     },
     {
       "label": "GitHub",
-      "value": "github.com/your-name",
-      "url": "https://github.com/your-name"
-    },
-    {
-      "label": "LinkedIn",
-      "value": "linkedin.com/in/your-name",
-      "url": "https://linkedin.com/in/your-name"
+      "value": "github.com/Ejanng",
+      "url": "https://github.com/Ejanng"
     }
   ]
 }

@@ -26,13 +26,22 @@ export default function ProjectGrid({ projects }: ProjectGridProps) {
   }, [projects]);
 
   return (
-    <section id="projects" className="section-block reveal-on-scroll" aria-labelledby="projects-heading">
-      <div className="section-block__header">
-        <p className="eyebrow">Projects</p>
-        <h2 id="projects-heading">A selection of the work I have made.</h2>
+    <section
+      id="projects"
+      className="reveal-on-scroll rounded-[2rem] border border-white/10 bg-slate-950/70 p-6 shadow-2xl shadow-black/20 backdrop-blur-xl"
+      aria-labelledby="projects-heading"
+    >
+      <div className="mb-6 flex flex-col gap-3">
+        <p className="text-xs font-semibold uppercase tracking-[0.28em] text-slate-400">Projects</p>
+        <h2
+          id="projects-heading"
+          className="max-w-2xl [font-family:var(--font-display)] text-3xl font-bold tracking-tight text-white sm:text-4xl"
+        >
+          A selection of the work I have made.
+        </h2>
       </div>
 
-      <div className="project-grid">
+      <div className="grid gap-4 lg:grid-cols-2 xl:grid-cols-3">
         {projects.map((project) => (
           <ProjectCard
             key={project.id}
