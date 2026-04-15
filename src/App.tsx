@@ -165,42 +165,6 @@ export default function App() {
       />
 
       <div className="relative z-10 mx-auto flex w-full max-w-6xl flex-col gap-8 px-4 py-6 sm:px-6 lg:px-8 lg:py-8">
-        <nav
-          className="reveal-on-scroll sticky top-4 z-20 flex w-fit items-center gap-1 rounded-full border border-white/10 bg-slate-950/70 p-1 shadow-2xl shadow-black/25 backdrop-blur-xl"
-          aria-label="Section navigation"
-        >
-          <a
-            href="#about"
-            className={
-              activeSection === 'about'
-                ? 'rounded-full border border-white/20 bg-white/10 px-4 py-2 text-sm font-medium text-white'
-                : 'rounded-full border border-transparent px-4 py-2 text-sm font-medium text-slate-300 hover:border-white/10 hover:bg-white/5 hover:text-white'
-            }
-          >
-            About
-          </a>
-          <a
-            href="#projects"
-            className={
-              activeSection === 'projects'
-                ? 'rounded-full border border-white/20 bg-white/10 px-4 py-2 text-sm font-medium text-white'
-                : 'rounded-full border border-transparent px-4 py-2 text-sm font-medium text-slate-300 hover:border-white/10 hover:bg-white/5 hover:text-white'
-            }
-          >
-            Projects
-          </a>
-          <a
-            href="#resume"
-            className={
-              activeSection === 'resume'
-                ? 'rounded-full border border-white/20 bg-white/10 px-4 py-2 text-sm font-medium text-white'
-                : 'rounded-full border border-transparent px-4 py-2 text-sm font-medium text-slate-300 hover:border-white/10 hover:bg-white/5 hover:text-white'
-            }
-          >
-            Resume
-          </a>
-        </nav>
-
         <Hero
           name={profile.name}
           role={profile.role}
